@@ -1,0 +1,419 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sasag\\Desktop\\Demo\\Practice\\Practice.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Data.EF\\PersonManagement.Data.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Data.EF\\PersonManagement.Data.EF.csproj",
+        "projectName": "PersonManagement.Data.EF",
+        "projectPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Data.EF\\PersonManagement.Data.EF.csproj",
+        "packagesPath": "C:\\Users\\sasag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Data.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sasag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Data\\PersonManagement.Data.csproj": {
+                "projectPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Data\\PersonManagement.Data.csproj"
+              },
+              "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.PersistenceDB\\PersonManagement.PersistenceDB.csproj": {
+                "projectPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.PersistenceDB\\PersonManagement.PersistenceDB.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Data\\PersonManagement.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Data\\PersonManagement.Data.csproj",
+        "projectName": "PersonManagement.Data",
+        "projectPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Data\\PersonManagement.Data.csproj",
+        "packagesPath": "C:\\Users\\sasag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sasag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Domain\\PersonManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Domain\\PersonManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Domain\\PersonManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Domain\\PersonManagement.Domain.csproj",
+        "projectName": "PersonManagement.Domain",
+        "projectPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Domain\\PersonManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\sasag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sasag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.PersistenceDB\\PersonManagement.PersistenceDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.PersistenceDB\\PersonManagement.PersistenceDB.csproj",
+        "projectName": "PersonManagement.PersistenceDB",
+        "projectPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.PersistenceDB\\PersonManagement.PersistenceDB.csproj",
+        "packagesPath": "C:\\Users\\sasag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.PersistenceDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sasag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Domain\\PersonManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Domain\\PersonManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagementServices\\PersonManagement.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagementServices\\PersonManagement.Services.csproj",
+        "projectName": "PersonManagement.Services",
+        "projectPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagementServices\\PersonManagement.Services.csproj",
+        "packagesPath": "C:\\Users\\sasag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagementServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sasag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Data.EF\\PersonManagement.Data.EF.csproj": {
+                "projectPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.Data.EF\\PersonManagement.Data.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sasag\\Desktop\\Demo\\Practice\\Practice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasag\\Desktop\\Demo\\Practice\\Practice.csproj",
+        "projectName": "PersonManagement",
+        "projectPath": "C:\\Users\\sasag\\Desktop\\Demo\\Practice\\Practice.csproj",
+        "packagesPath": "C:\\Users\\sasag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasag\\Desktop\\Demo\\Practice\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sasag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.PersistenceDB\\PersonManagement.PersistenceDB.csproj": {
+                "projectPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagement.PersistenceDB\\PersonManagement.PersistenceDB.csproj"
+              },
+              "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagementServices\\PersonManagement.Services.csproj": {
+                "projectPath": "C:\\Users\\sasag\\Desktop\\Demo\\PersonManagementServices\\PersonManagement.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

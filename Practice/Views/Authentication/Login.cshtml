@@ -1,0 +1,14 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h3>
+    Login page
+</h3>
+<form asp-controller="Authentication" asp-action="Login" method="post">
+    <label for="email"><b>Email</b></label>
+    <input type="text" name="login" value="" />
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" name="password" value="" />
+
+    <button type="submit" class="btn btn-primary"> Login </button>
+</form>

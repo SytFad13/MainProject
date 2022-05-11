@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PersonManagement.DAL</id>
+    <version>1.0.0</version>
+    <authors>PersonManagement.DAL</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="PersonManagement.PersistenceDB" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\sasag\Desktop\Demo\PersonManagement.DAL\bin\Debug\netcoreapp3.1\PersonManagement.DAL.dll" target="lib\netcoreapp3.1\PersonManagement.DAL.dll" />
+  </files>
+</package>

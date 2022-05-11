@@ -1,0 +1,38 @@
+﻿@model PersonManagement.MVC.ViewModels.AcademyEventViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h4>Add event</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="AcademyEvents" asp-action="Create" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateAndTime" class="control-label"></label>
+                <input asp-for="DateAndTime" class="form-control" />
+                <span asp-validation-for="DateAndTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImgUrl" class="control-label"></label>
+                <input asp-for="ImgUrl" class="form-control" />
+                <span asp-validation-for="ImgUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Add event" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<a class="btn btn-danger" asp-controller="AcademyEvents" asp-action="My">See my events</a>
+<a class="btn btn-danger" asp-action="Signout">Sign out</a>

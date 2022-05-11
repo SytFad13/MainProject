@@ -1,0 +1,385 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.Api\\PersonManagement.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.Api\\PersonManagement.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.Api\\PersonManagement.Api.csproj",
+        "projectName": "PersonManagement.Api",
+        "projectPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.Api\\PersonManagement.Api.csproj",
+        "packagesPath": "C:\\Users\\Saba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Saba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.PersistenceDB\\PersonManagement.PersistenceDB.csproj": {
+                "projectPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.PersistenceDB\\PersonManagement.PersistenceDB.csproj"
+              },
+              "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagementServices\\PersonManagement.Services.csproj": {
+                "projectPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagementServices\\PersonManagement.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.DAL\\PersonManagement.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.DAL\\PersonManagement.DAL.csproj",
+        "projectName": "PersonManagement.DAL",
+        "projectPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.DAL\\PersonManagement.DAL.csproj",
+        "packagesPath": "C:\\Users\\Saba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Saba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.PersistenceDB\\PersonManagement.PersistenceDB.csproj": {
+                "projectPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.PersistenceDB\\PersonManagement.PersistenceDB.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.Domain\\PersonManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.Domain\\PersonManagement.Domain.csproj",
+        "projectName": "PersonManagement.Domain",
+        "projectPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.Domain\\PersonManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Saba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Saba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.PersistenceDB\\PersonManagement.PersistenceDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.PersistenceDB\\PersonManagement.PersistenceDB.csproj",
+        "projectName": "PersonManagement.PersistenceDB",
+        "projectPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.PersistenceDB\\PersonManagement.PersistenceDB.csproj",
+        "packagesPath": "C:\\Users\\Saba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.PersistenceDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Saba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.Domain\\PersonManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.Domain\\PersonManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagementServices\\PersonManagement.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagementServices\\PersonManagement.Services.csproj",
+        "projectName": "PersonManagement.Services",
+        "projectPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagementServices\\PersonManagement.Services.csproj",
+        "packagesPath": "C:\\Users\\Saba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagementServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Saba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.DAL\\PersonManagement.DAL.csproj": {
+                "projectPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.DAL\\PersonManagement.DAL.csproj"
+              },
+              "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.Domain\\PersonManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Saba\\Desktop\\SabaMaghlakelidze\\EventsAcademy\\PersonManagement.Domain\\PersonManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

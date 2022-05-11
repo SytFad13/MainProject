@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonManagement.MVC", "PersonManagement.MVC.csproj", "{9FFA5F06-23C5-45C0-B895-801CEB7DDE36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonManagement.Services", "..\PersonManagementServices\PersonManagement.Services.csproj", "{AA3C2C35-6BC4-4FAA-9523-B88B87F4323F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonManagement.Domain", "..\PersonManagement.Domain\PersonManagement.Domain.csproj", "{F8B020F6-C914-49D0-9F65-5DBAF997BDB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonManagement.PersistenceDB", "..\PersonManagement.PersistenceDB\PersonManagement.PersistenceDB.csproj", "{27520FB6-42D5-462C-996A-8BBF4116BD99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonManagement.Api", "..\PersonManagement.Api\PersonManagement.Api.csproj", "{8DFD18F3-4C8B-4BDB-9E81-B1902B67B01C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagement.DAL", "..\PersonManagement.DAL\PersonManagement.DAL.csproj", "{C9EB17FA-9363-4614-B704-F807E3F2B6F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FFA5F06-23C5-45C0-B895-801CEB7DDE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFA5F06-23C5-45C0-B895-801CEB7DDE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FFA5F06-23C5-45C0-B895-801CEB7DDE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFA5F06-23C5-45C0-B895-801CEB7DDE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA3C2C35-6BC4-4FAA-9523-B88B87F4323F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA3C2C35-6BC4-4FAA-9523-B88B87F4323F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA3C2C35-6BC4-4FAA-9523-B88B87F4323F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA3C2C35-6BC4-4FAA-9523-B88B87F4323F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B020F6-C914-49D0-9F65-5DBAF997BDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B020F6-C914-49D0-9F65-5DBAF997BDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B020F6-C914-49D0-9F65-5DBAF997BDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B020F6-C914-49D0-9F65-5DBAF997BDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27520FB6-42D5-462C-996A-8BBF4116BD99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27520FB6-42D5-462C-996A-8BBF4116BD99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27520FB6-42D5-462C-996A-8BBF4116BD99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27520FB6-42D5-462C-996A-8BBF4116BD99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DFD18F3-4C8B-4BDB-9E81-B1902B67B01C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DFD18F3-4C8B-4BDB-9E81-B1902B67B01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DFD18F3-4C8B-4BDB-9E81-B1902B67B01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DFD18F3-4C8B-4BDB-9E81-B1902B67B01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9EB17FA-9363-4614-B704-F807E3F2B6F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9EB17FA-9363-4614-B704-F807E3F2B6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9EB17FA-9363-4614-B704-F807E3F2B6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9EB17FA-9363-4614-B704-F807E3F2B6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D1CDEDB-7527-4507-BEF4-56BB5589F938}
+	EndGlobalSection
+EndGlobal
